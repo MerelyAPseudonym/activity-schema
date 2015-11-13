@@ -2726,7 +2726,7 @@ This specification defines the following initial set of namespace properties tha
 The <tt>dc</tt> namespace property is defined to encapsulate the set of extension properties that represent information specific to the [Dublin Core Metadata Initiative][1].  If, for instance, Dublin Core properties can be applied to an Activity Streams object, those properties SHOULD be grouped together under the <tt>dc</tt> property.
 
 For example:
-``` json json
+``` json
   {
     "objectType": "file",
     "displayName": "A Document",
@@ -2796,7 +2796,7 @@ For example:
 The <tt>ld</tt> namespace property is defined to encapsulate the set of extension properties that represent information specific to the [JSON Linked Data][3] vocabulary.  If, for instance, Linked Data properties can be applied to an Activity Streams object, those properties SHOULD be grouped together under the <tt>ld</tt> property.
 
 For example:
-``` json json
+``` json
   {
     "objectType": "person",
     "displayName": "John Doe",
